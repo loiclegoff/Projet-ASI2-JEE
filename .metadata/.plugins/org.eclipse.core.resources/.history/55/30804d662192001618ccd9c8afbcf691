@@ -1,0 +1,32 @@
+package fr.cpe.dao;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import fr.cpe.services.UserModel;
+
+
+/**
+ * Created by ubuntu on 9/24/16.
+ */
+
+//@TransactionAttribute(TransactionAttributeType.REQUIRED)
+@Stateless
+public class UserDao {
+
+    @PersistenceContext
+    EntityManager em;
+
+    public void save(UserModel user) {
+        em.persist(user);
+    }
+
+    public UserModel getUserByLogin(String login) {
+    	UserModel user = (UserModel)em.createQuery("from Users u where u.name = :name")
+                .setParameter("login", login)
+                .getSingleResult();
+
+        return user;
+
+    }
+}

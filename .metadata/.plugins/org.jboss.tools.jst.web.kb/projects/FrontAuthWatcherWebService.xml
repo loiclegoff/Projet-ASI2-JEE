@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects>
+  <project name="MiddleAuthWatcherEJBClient"/>
+ </depends-on-projects>
+ <used-by-projects/>
+ <paths>
+  <path value="/fs03/share/users/sebastien.di-rollo/home/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar"/>
+  <path value="/fs03/share/users/sebastien.di-rollo/home/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar"/>
+  <path value="/fs03/share/users/sebastien.di-rollo/home/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <path value="/fs03/share/users/sebastien.di-rollo/home/.m2/repository/org/jboss/resteasy/jaxrs-api/3.0.10.Final/jaxrs-api-3.0.10.Final.jar"/>
+  <path value="/fs03/share/users/sebastien.di-rollo/home/.m2/repository/org/jboss/spec/javax/json/jboss-json-api_1.0_spec/1.0.0.Final/jboss-json-api_1.0_spec-1.0.0.Final.jar"/>
+  <path value="/fs03/share/users/sebastien.di-rollo/home/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;" path="%0"/>
+   <linked-resource name="%1;" path="%2"/>
+   <linked-resource name="%4;" path="%3"/>
+  </core>
+  <el>
+   <linked-el length="21" name="%5" offset="2824" path="%6"/>
+   <linked-el length="21" name="%7" offset="2824" path="%6"/>
+   <linked-el length="21" name="%8" offset="2681" path="%6"/>
+   <linked-el length="21" name="%9" offset="2681" path="%6"/>
+   <linked-el length="21" name="%10" offset="2824" path="%6"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/MiddleAuthWatcherEJBClient/src/main/java/fr/cpe/services/IHelloWorldService.java" value="%3"/>
+  <alias path="version.war" value="%5"/>
+  <alias path="version.war.plugin" value="%7"/>
+  <alias path="/FrontAuthWatcherWebService/pom.xml" value="%6"/>
+  <alias
+   path="/MiddleAuthWatcherEJBClient/src/main/java/fr/cpe/services/IMessageReceiverSync.java" value="%2"/>
+  <alias path="project.artifactId" value="%8"/>
+  <alias path="project" value="%9"/>
+  <alias
+   path="/MiddleAuthWatcherEJBClient/src/main/java/fr/cpe/services/IMessageSenderLocal.java" value="%0"/>
+  <alias
+   path="/FrontAuthWatcherWebService/src/main/java/fr/cpe/rest/impl/HelloWord.java" value="%4"/>
+  <alias path="version" value="%10"/>
+  <alias
+   path="/FrontAuthWatcherWebService/src/main/java/fr/cpe/rest/impl/WatcherAuth.java" value="%1"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

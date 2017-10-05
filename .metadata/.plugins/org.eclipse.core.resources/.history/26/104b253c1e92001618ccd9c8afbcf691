@@ -1,0 +1,37 @@
+package fr.cpe.dao;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
+
+import fr.cpe.services.UserModel;
+
+import java.util.List;
+
+/**
+ * Created by ubuntu on 9/24/16.
+ */
+
+//@TransactionAttribute(TransactionAttributeType.REQUIRED)
+@Stateless
+public class UserDao {
+
+    @PersistenceContext
+    EntityManager em;
+
+    public void save(UserModel user) {
+        em.persist(user);
+    }
+
+    public UserModel getUserById(int id) {
+    	UserModel user = (UserModel)em.createQuery("from User u where u.id = :id")
+                .setParameter("id", id)
+                .getSingleResult();
+
+        return user;
+
+    }
+}

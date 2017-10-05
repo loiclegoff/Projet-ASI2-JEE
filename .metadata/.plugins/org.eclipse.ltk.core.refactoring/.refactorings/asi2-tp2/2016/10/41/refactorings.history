@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;UserDao.java&apos; to &apos;MiddleAuthWatcherEJBClient/src/main/java/fr.cpe.services&apos;&#x0A;- Original project: &apos;asi2-tp2&apos;&#x0A;- Destination element: &apos;MiddleAuthWatcherEJBClient/src/main/java/fr.cpe.services&apos;&#x0A;- Original element: &apos;UserDao.java&apos;" description="Copy file" destination="=MiddleAuthWatcherEJBClient/src\/main\/java&lt;fr.cpe.services" element1="asi2-tp2-domain/src/main/java/fr/cpe/dao/UserDao.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1476456802814" units="0" version="1.0"/>
+</session>

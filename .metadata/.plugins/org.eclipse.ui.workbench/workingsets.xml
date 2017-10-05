@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1476456612197_1" label="Projet" name="Projet">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MiddleAuthWatcherEJBClient" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MiddleAuthWatcherEJB" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/WatcherAuthProject" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/FrontAuthWatcherWebService" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/WatcherAuthJ2E" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1476456556034_0" label="Window Working Set" name="Aggregate for window 1476456556033"/>
+</workingSetManager>
